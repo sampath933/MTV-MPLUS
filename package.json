@@ -1,0 +1,28 @@
+{
+  "name": "yourbot",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot created using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
+    "stop": "pm2 stop wabot",
+    "restart": "pm2 restart wabot"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "npm:asitha-baliyes-new",
+    "@adiwajshing/keyed-db": "latest",
+    "pino": "latest",
+    "pm2": "latest",
+    "util": "latest",
+    "express": "latest",
+    "axios": "latest",
+    "file_size_url": "latest",
+    "fs-extra": "latest",
+    "path": "latest",
+    "node-fetch": "latest",
+    "megajs": "latest",
+    "vm": "latest",
+    "qrcode-terminal": "latest",
+    "cheerio":"latest"
+  }
+}
